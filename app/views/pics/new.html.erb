@@ -1,9 +1,10 @@
-<div class="smurfy" text-align: center>
+<div class="smurfy span6 text-center">
+<h1> Start planning your jaunt 
 
 <%= simple_form_for @pic do |f| %>
-		<%= f.input :title %>
-		<%= f.input :subtitle %>
-		<%= f.input :message %>
+		<%= f.input :title, label: 'Name', placeholder: 'First and last' %>
+		<%= f.input :subtitle, label: 'Destination', placeholder: 'for example, Rome, Italy' %> 
+		<%= f.input :message, label: 'Anything else we should know?', placeholder: 'for example, who are you traveling with?'%>
 
 		<%= f.submit "Save" %>
 
