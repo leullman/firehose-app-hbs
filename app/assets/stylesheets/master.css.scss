@@ -5,6 +5,7 @@
 	width:100%;
 	background-color: rgba(36,32,33,0.50);
 	padding: 1%;
+	color: white;
 }
 
 body { 
@@ -20,13 +21,19 @@ background: url(beachybug.jpg) no-repeat center center fixed;
 
 .custom-h1 { 
 	color: #BFBA17; 
+	font-family: 'Istok Web', Helvetica Neue Light, Helvetica Neue, Helvetica, san-serif;
+	font-weight: 100;
+	font-size: 64px;
+	line-height: 64px;
 
+}
 
-font-family: 'Istok Web', Helvetica Neue Light, Helvetica Neue, Helvetica, san-serif;
-font-weight: 100;
-font-size: 64px;
-text-align:center;
-
+h2 { 
+	color: white;
+	font-family: 'Istok Web', Helvetica Neue;
+	font-weight: 200;
+	font-size: 24px;
+	line-height: 24px;
 }
 
 h2 { 

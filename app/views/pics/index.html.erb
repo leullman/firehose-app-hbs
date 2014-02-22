@@ -1,0 +1,19 @@
+<% @pics.each do |pic| %>
+
+<div class= "smurfy span4">
+	<h2>
+	Travel Category: <%= pic.title %>
+	<br />
+	</h2>
+	<h2>
+		Destination: <%pic.subtitle %>
+	</h2>
+	<br/>
+	<h2>
+		Honeymoon tip: <%= pic.message %>
+	</h2>
+
+
+</div>
+
+<% end %> 
