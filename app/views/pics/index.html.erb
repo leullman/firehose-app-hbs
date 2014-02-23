@@ -1,8 +1,10 @@
-<% @pics.each do |pic| %>
+<% @pics.each_slice(3) do |slice| %>
+	<% slice.each do |pic| %>
 
-<div class= "smurfy span4">
+<div class= "smurfy span6 text-center">
+	
 	<h2>
-	Travel Category: <%= pic.title %>
+		Travel Category: <%= pic.title %>
 	<br />
 	</h2>
 	<h2>
@@ -13,7 +15,13 @@
 		Honeymoon tip: <%= pic.message %>
 	</h2>
 
+		<%= image_tag pic.image %>
 
-</div>
 
+			</div>
+
+		<% end %> 
+	</div>
+	<br />
+	<br />
 <% end %> 
